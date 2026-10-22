@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'none'; form-action 'none'; base-uri 'none'">
+<meta name="referrer" content="no-referrer">
+<title>pH en alkaliniteit berekenen voor je hottub: pH-min en pH-plus</title>
+<meta name="description" content="Hoeveel droog zuur, zoutzuur, soda of zuiveringszout je hottub nodig heeft. Rekent met je alkaliniteit, in stappen van 0,3 pH, en houdt de TA boven 50.">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#F4EFE8" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#13100E" media="(prefers-color-scheme: dark)">
+<link rel="canonical" href="https://mufa-tech.github.io/tubwise/nl/hottub-ph-alkaliniteit/">
+<link rel="alternate" hreflang="en" href="https://mufa-tech.github.io/tubwise/hot-tub-ph-alkalinity-calculator/">
+<link rel="alternate" hreflang="de" href="https://mufa-tech.github.io/tubwise/de/whirlpool-ph-alkalinitaet-rechner/">
+<link rel="alternate" hreflang="fr" href="https://mufa-tech.github.io/tubwise/fr/calcul-ph-tac-spa/">
+<link rel="alternate" hreflang="nl" href="https://mufa-tech.github.io/tubwise/nl/hottub-ph-alkaliniteit/">
+<link rel="alternate" hreflang="it" href="https://mufa-tech.github.io/tubwise/it/calcolo-ph-alcalinita-idromassaggio/">
+<link rel="alternate" hreflang="es" href="https://mufa-tech.github.io/tubwise/es/calculadora-ph-alcalinidad-spa/">
+<link rel="alternate" hreflang="tr" href="https://mufa-tech.github.io/tubwise/tr/jakuzi-ph-alkalinite-hesaplama/">
+<link rel="alternate" hreflang="x-default" href="https://mufa-tech.github.io/tubwise/hot-tub-ph-alkalinity-calculator/">
+<link rel="icon" href="../../assets/icon.svg" type="image/svg+xml">
+<link rel="icon" href="../../assets/icon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="../../assets/icon-180.png">
+<link rel="preload" href="../../assets/fonts/Manrope.woff2" as="font" type="font/woff2" crossorigin>
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Tubwise">
+<meta property="og:title" content="pH en alkaliniteit berekenen voor je hottub: pH-min en pH-plus">
+<meta property="og:description" content="Hoeveel droog zuur, zoutzuur, soda of zuiveringszout je hottub nodig heeft. Rekent met je alkaliniteit, in stappen van 0,3 pH, en houdt de TA boven 50.">
+<meta property="og:url" content="https://mufa-tech.github.io/tubwise/nl/hottub-ph-alkaliniteit/">
+<meta property="og:image" content="https://mufa-tech.github.io/tubwise/assets/og-nl.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="nl_NL">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:locale:alternate" content="de_DE">
+<meta property="og:locale:alternate" content="fr_FR">
+<meta property="og:locale:alternate" content="it_IT">
+<meta property="og:locale:alternate" content="es_ES">
+<meta property="og:locale:alternate" content="tr_TR">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="../../assets/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Naar de inhoud</a>
+<header class="top"><div class="wrap">
+<a class="brand" href="../../nl/"><img src="../../assets/icon-64.png" alt="" width="32" height="32">Tubwise</a>
+<nav class="main" aria-label="Hoofdmenu"><a href="../../nl/rekenhulp/" aria-current="page">Rekenhulp</a><a href="../../nl/hottub-water-testen/">Testgids</a><a href="../../nl/support/">Hulp</a></nav>
+<nav class="lang" aria-label="Taal"><a href="../../hot-tub-ph-alkalinity-calculator/" hreflang="en" lang="en" title="English">EN</a><a href="../../de/whirlpool-ph-alkalinitaet-rechner/" hreflang="de" lang="de" title="Deutsch">DE</a><a href="../../fr/calcul-ph-tac-spa/" hreflang="fr" lang="fr" title="Français">FR</a><a href="../../nl/hottub-ph-alkaliniteit/" hreflang="nl" lang="nl" title="Nederlands" aria-current="true">NL</a><a href="../../it/calcolo-ph-alcalinita-idromassaggio/" hreflang="it" lang="it" title="Italiano">IT</a><a href="../../es/calculadora-ph-alcalinidad-spa/" hreflang="es" lang="es" title="Español">ES</a><a href="../../tr/jakuzi-ph-alkalinite-hesaplama/" hreflang="tr" lang="tr" title="Türkçe">TR</a></nav>
+<details class="langpick"><summary aria-label="Taal: Nederlands"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.6 2.8 2.6 15.2 0 18M12 3c-2.6 2.8-2.6 15.2 0 18"/></svg>NL</summary><nav aria-label="Taal"><a href="../../hot-tub-ph-alkalinity-calculator/" hreflang="en" lang="en">English</a><a href="../../de/whirlpool-ph-alkalinitaet-rechner/" hreflang="de" lang="de">Deutsch</a><a href="../../fr/calcul-ph-tac-spa/" hreflang="fr" lang="fr">Français</a><a href="../../nl/hottub-ph-alkaliniteit/" hreflang="nl" lang="nl" aria-current="true">Nederlands</a><a href="../../it/calcolo-ph-alcalinita-idromassaggio/" hreflang="it" lang="it">Italiano</a><a href="../../es/calculadora-ph-alcalinidad-spa/" hreflang="es" lang="es">Español</a><a href="../../tr/jakuzi-ph-alkalinite-hesaplama/" hreflang="tr" lang="tr">Türkçe</a></nav></details>
+</div></header>
+<main id="main" tabindex="-1">
+<div class="wrap">
+<p class="crumb"><a href="../../nl/rekenhulp/">Rekenhulp</a></p>
+<h1>pH en alkaliniteit berekenen voor je hottub</h1>
+<p class="lead">Hoeveel pH-min, pH-plus of zuiveringszout je toevoegt. De pH-dosis hangt af van je alkaliniteit, dus je vult beide in.</p>
+<div class="calc">
+<form class="panel" id="calc-form" data-calc="ph" novalidate>
+<div class="field volume"><label for="vol">Waterinhoud</label>
+<div class="joined"><input id="vol" name="vol" type="text" inputmode="decimal" autocomplete="off" spellcheck="false" value="1.500" required aria-describedby="vol-hint vol-err">
+<select id="vol-unit" name="vol-unit" aria-label="Eenheid van de inhoud"><option value="L" selected>liter</option><option value="gal">US gallon</option></select></div>
+<span class="hint" id="vol-hint">Staat in de handleiding. Bij opblaasbare spa’s is dat vaak de inhoud bij 80 % vulling.</span><span class="err" id="vol-err" hidden></span></div>
+<div class="field "><label for="ta">Totale alkaliniteit (TA) nu (ppm)</label>
+<input id="ta" name="ta" type="text" inputmode="decimal" autocomplete="off" spellcheck="false" required aria-describedby="ta-hint ta-err">
+<span class="hint" id="ta-hint">Telt voor beide delen: hoe hoger de TA, hoe meer zuur je nodig hebt om de pH te verschuiven.</span><span class="err" id="ta-err" hidden></span></div>
+<h2 class="h3 form-h">Totale alkaliniteit</h2>
+<div class="field "><label for="ta-target">Streefwaarde TA (ppm)</label>
+<input id="ta-target" name="ta-target" type="text" inputmode="decimal" autocomplete="off" spellcheck="false" value="80" required aria-describedby="ta-target-hint ta-target-err">
+<span class="hint" id="ta-target-hint">Ideaal 80 tot 100 met vloeibare chloor, 100 tot 120 met chloorgranulaat of broom.</span><span class="err" id="ta-target-err" hidden></span></div>
+<h2 class="h3 form-h">pH</h2>
+<div class="field-row two"><div class="field "><label for="ph">pH nu</label>
+<input id="ph" name="ph" type="text" inputmode="decimal" autocomplete="off" spellcheck="false" required aria-describedby="ph-err">
+<span class="err" id="ph-err" hidden></span></div><div class="field "><label for="ph-target">Streef-pH</label>
+<input id="ph-target" name="ph-target" type="text" inputmode="decimal" autocomplete="off" spellcheck="false" value="7,5" required aria-describedby="ph-target-hint ph-target-err">
+<span class="hint" id="ph-target-hint">Ideaal 7,4 tot 7,6.</span><span class="err" id="ph-target-err" hidden></span></div></div>
+<div data-show="down"><fieldset class="choice"><legend>pH-min-product</legend><div class="pills"><label class="pill"><input type="radio" name="acid" value="dry" checked><span>Droog zuur (natriumbisulfaat)</span></label><label class="pill"><input type="radio" name="acid" value="muriatic"><span>Zoutzuur</span></label></div></fieldset>
+<div class="field-row" data-show="muriatic" hidden><div class="field "><label for="mur-pct">Sterkte van het zuur (% HCl)</label>
+<input id="mur-pct" name="mur-pct" type="text" inputmode="decimal" autocomplete="off" spellcheck="false" value="31,45" required aria-describedby="mur-pct-hint mur-pct-err">
+<span class="hint" id="mur-pct-hint">Staat op het etiket (% zoutzuur). Zwembadzuur is vaak 31,45 %, verdund zuur 14,5 %.</span><span class="err" id="mur-pct-err" hidden></span></div></div></div>
+<div data-show="up" hidden><fieldset class="choice"><legend>pH-plus-product</legend><div class="pills"><label class="pill"><input type="radio" name="base" value="soda" checked><span>Soda (natriumcarbonaat)</span></label><label class="pill"><input type="radio" name="base" value="borax"><span>Borax</span></label></div></fieldset></div>
+<details class="more"><summary>Boraten in het water? (optioneel)</summary><div class="field "><label for="borate">Boraat (ppm als B)</label>
+<input id="borate" name="borate" type="text" inputmode="decimal" autocomplete="off" spellcheck="false" value="0" aria-describedby="borate-hint borate-err">
+<span class="hint" id="borate-hint">Laat op 0 staan tenzij je boraten hebt toegevoegd. Die bufferen de pH, dus er is meer zuur nodig.</span><span class="err" id="borate-err" hidden></span></div></details>
+</form>
+<section class="results" aria-labelledby="res-h">
+<h2 id="res-h" class="sr">Resultaat</h2>
+<div id="calc-nojs" class="callout"><p>Deze rekenhulp heeft JavaScript nodig. Hieronder staat hoe je het met de hand uitrekent.</p></div>
+<div id="res" class="res-card card" aria-live="polite" hidden></div>
+<p class="note">Werkt in je browser. Niets wat je intypt wordt verstuurd of bewaard.</p>
+</section>
+</div>
+<script type="application/json" id="calc-i18n">{"locale":"nl-NL","decimal":",","units":"metric","g":"g","ml":"mL","oz":"oz","floz":"fl oz","errNumber":"Vul een getal in.","errRange":"Vul een waarde in van {min} tot {max}.","fixErrors":"Controleer de velden die rood gemarkeerd zijn.","fillIn":"Vul de velden in om het resultaat te zien.","retest":"Laat de jets 20 minuten draaien en test opnieuw voor je meer toevoegt. Opblaasbare spa zonder jets: laat eerst 4 uur het filter draaien.","flags":{"warn":"Let op","stop":"Stop","info":"Opmerking","good":"Goed"},"days":{"one":"dag","other":"dagen"},"products":{"dry":"droog zuur","muriatic":"zoutzuur","soda":"soda","borax":"borax"},"phH0":"pH","phH":"pH {from} → {to}","phAtTarget":"De pH zit al op de streefwaarde.","outOfModel":"Buiten het bereik van dit model (pH 6,8 tot 8,6, TA tot 300 ppm, boraat tot 80 ppm). Test opnieuw; klopt de meting, verschuif de pH dan in kleinere stappen.","addNow":"{product} nu: {pct} % van stap 1 van {n}","addNowOne":"{product} nu: {pct} % van de hele hoeveelheid","stepTo":"Stap {i}: naar pH {ph}","taDrop":"Het volledige plan verlaagt de TA met ongeveer {x} ppm.","taRise":"Het volledige plan verhoogt de TA met ongeveer {x} ppm.","borateRise":"Borax voegt ook ongeveer {x} ppm boraat toe.","floor":"Gestopt bij pH {ph}, zodat de TA op {floor} ppm of hoger blijft. Verhoog eerst de TA met zuiveringszout en verlaag dan de pH.","acidTip":"Giet zuur langzaam in het water bij de jets. Meng het nooit met chloor.","taH0":"Totale alkaliniteit","taH":"TA {from} → {to} ppm","taHigh":"De TA zit boven de streefwaarde. Verlagen gaat met zuur en beluchting, verspreid over een paar dagen; de app helpt je er stap voor stap doorheen.","taAtTarget":"De TA zit al op de streefwaarde.","taAddNow":"zuiveringszout nu: {pct} % van stap 1 van {n}","taAddNowOne":"zuiveringszout nu: {pct} % van de hele hoeveelheid","taStepTo":"Stap {i}: naar {ta} ppm","taRaisesPh":"Zuiveringszout duwt de pH ook een beetje omhoog.","order":"Eerst de alkaliniteit. Test de pH 20 minuten later opnieuw en stel hem dan bij."}</script>
+
+<div class="prose gap-top">
+<h2 id="method">Zo wordt het berekend</h2>
+<h3>Waarom de alkaliniteit de pH-dosis verandert</h3>
+<p>De totale alkaliniteit (TA) is de buffer van het water. Hoe meer buffer, hoe meer zuur je nodig hebt om de pH te verschuiven. Doseringen op het etiket zoals “10 g per 1.000 L verlaagt de pH met 0,1” houden geen rekening met de TA. In een spa met zacht water kunnen ze er daardoor een factor drie naast zitten.</p>
+<h3>Het zuurmodel</h3>
+<p>Tubwise gebruikt het zuurmodel van TroubleFreePool Pool Math, in milli-equivalenten, zodat het met elke zuursterkte werkt:</p><pre><code>p̄ = (pH nu + streef-pH) ÷ 2
+adj = (192,1626 − 60,1221 p̄ + 6,0752 p̄² − 0,1943 p̄³) × (TA + 13,91) ÷ 114,6
+zuur (meq/L) = ΔpH × (adj + extra × boraat) × 0,325469</code></pre><p>Zoutzuur van 31,45 % bevat 10,006 meq per mL; droog zuur (93,2 % natriumbisulfaat) 7,763 meq per g. Soda en borax gebruiken dezelfde bufferterm in de andere richting.</p>
+<h3>Veilige stappen</h3>
+<p>De pH verschuift per stap hoogstens 0,3, en elke stap wordt op zijn eigen middelpunt berekend. De rekenhulp toont 75 % van de eerste stap: voeg dat toe, laat de jets 20 minuten draaien en test opnieuw. Zuur stopt voordat de TA onder 50 ppm zou zakken, want met te weinig buffer schommelt de pH sterk.</p><p>Hottubs verliezen bij 37 tot 40 °C snel CO₂, dus de pH kruipt na het doseren omhoog. Dat is normaal; test opnieuw in plaats van het exacte getal na te jagen.</p>
+<h3>Zuiveringszout voor de alkaliniteit</h3>
+<p>Zuiveringszout (natriumbicarbonaat, 84,007 g/mol) voegt per mol één equivalent alkaliniteit toe:</p><p><code>gram = stijging TA ÷ 50,04 × liter × 84,007 ÷ 1000</code></p><p>Elke stap verhoogt de TA hoogstens 30 ppm, en je ziet 75 % van de eerste stap. Voorbeeld: 1.000 L van 60 naar 80 ppm is in totaal 33,6 g; voeg 25,2 g toe en test dan.</p>
+<aside class="card app-note gap-top" aria-labelledby="app-h">
+<h2 id="app-h" class="h3">In de app</h2>
+<p>Tubwise haalt deze getallen uit je test, zet de stappen op volgorde (alkaliniteit, dan pH, dan desinfectiemiddel) en start na elke stap een timer om opnieuw te testen.</p>
+<div class="stores "><span class="store soon"><small>App Store</small><b>Binnenkort</b></span><span class="store soon"><small>Google Play</small><b>Binnenkort</b></span></div>
+</aside>
+<h2>Bronnen</h2>
+<ol class="sources"><li><a href="https://www.troublefreepool.com/calc.html" rel="noopener">TroubleFreePool, oude Pool Math-calculator (calc.html): model voor zuur en base</a></li><li><a href="https://taylortechnologies.com/pages/technical-faqs" rel="noopener">Taylor Technologies, technische FAQ: PHTA-bereiken voor pH en TA in spa’s</a></li><li><a href="https://poolhelp.com/wp-content/uploads/2024/10/NSPI-SympProc-V1-pp104-108-Wojtowicz.pdf" rel="noopener">Wojtowicz, NSPI Symposium 1996: CO₂-verlies in spa’s</a></li><li><a href="https://www.spaguard.com/spa-products/spa-water-balancers" rel="noopener">SpaGuard, middelen voor de waterbalans: TA-stijging per dosis</a></li><li><a href="https://www.ciaaw.org/calcium.htm" rel="noopener">CIAAW, standaard atoomgewicht van calcium (CaCO₃-equivalenten)</a></li></ol>
+<p class="callout">Berekeningen zijn schattingen; voeg in delen toe en test opnieuw. Volg het etiket van het product.</p>
+<p class="small">Meer: <a href="../../nl/rekenhulp/">Rekenhulp</a> · <a href="../../nl/hottub-water-testen/">Gids voor de druppeltest</a></p>
+</div>
+</div>
+</main>
+<footer><div class="wrap">
+<p class="disclaimer">Berekeningen zijn schattingen; voeg in delen toe en test opnieuw. Volg het etiket van het product.</p>
+<p>Tubwise is een testlogboek en doseerhulp voor het water van je hottub, voor iPhone en Android, gemaakt door Mufatech. Deze site plaatst geen cookies en laadt niets van andere servers.</p>
+<nav aria-label="Site"><a href="../../nl/">Tubwise</a><a href="../../nl/rekenhulp/">Rekenhulp</a><a href="../../nl/hottub-water-testen/">Testgids</a><a href="../../nl/support/">Hulp</a><a href="../../nl/privacy/">Privacy</a><a href="mailto:hello@mufatech.com">hello@mufatech.com</a></nav>
+</div></footer>
+<script type="module" src="../../assets/calc-ui.js"></script>
+</body>
+</html>

@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; connect-src 'none'; form-action 'none'; base-uri 'none'">
+<meta name="referrer" content="no-referrer">
+<title>Jakuzi pH ve alkalinite hesaplama: pH düşürücü, artırıcı</title>
+<meta name="description" content="Jakuzine ne kadar kuru asit, tuz ruhu, soda ya da karbonat eklenir? Alkaliniteyi hesaba katar, pH’ı 0,3’lük adımlarla değiştirir, TA’yı 50’nin altına indirmez.">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#F4EFE8" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#13100E" media="(prefers-color-scheme: dark)">
+<link rel="canonical" href="https://mufa-tech.github.io/tubwise/tr/jakuzi-ph-alkalinite-hesaplama/">
+<link rel="alternate" hreflang="en" href="https://mufa-tech.github.io/tubwise/hot-tub-ph-alkalinity-calculator/">
+<link rel="alternate" hreflang="de" href="https://mufa-tech.github.io/tubwise/de/whirlpool-ph-alkalinitaet-rechner/">
+<link rel="alternate" hreflang="fr" href="https://mufa-tech.github.io/tubwise/fr/calcul-ph-tac-spa/">
+<link rel="alternate" hreflang="nl" href="https://mufa-tech.github.io/tubwise/nl/hottub-ph-alkaliniteit/">
+<link rel="alternate" hreflang="it" href="https://mufa-tech.github.io/tubwise/it/calcolo-ph-alcalinita-idromassaggio/">
+<link rel="alternate" hreflang="es" href="https://mufa-tech.github.io/tubwise/es/calculadora-ph-alcalinidad-spa/">
+<link rel="alternate" hreflang="tr" href="https://mufa-tech.github.io/tubwise/tr/jakuzi-ph-alkalinite-hesaplama/">
+<link rel="alternate" hreflang="x-default" href="https://mufa-tech.github.io/tubwise/hot-tub-ph-alkalinity-calculator/">
+<link rel="icon" href="../../assets/icon.svg" type="image/svg+xml">
+<link rel="icon" href="../../assets/icon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="../../assets/icon-180.png">
+<link rel="preload" href="../../assets/fonts/Manrope.woff2" as="font" type="font/woff2" crossorigin>
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Tubwise">
+<meta property="og:title" content="Jakuzi pH ve alkalinite hesaplama: pH düşürücü, artırıcı">
+<meta property="og:description" content="Jakuzine ne kadar kuru asit, tuz ruhu, soda ya da karbonat eklenir? Alkaliniteyi hesaba katar, pH’ı 0,3’lük adımlarla değiştirir, TA’yı 50’nin altına indirmez.">
+<meta property="og:url" content="https://mufa-tech.github.io/tubwise/tr/jakuzi-ph-alkalinite-hesaplama/">
+<meta property="og:image" content="https://mufa-tech.github.io/tubwise/assets/og-tr.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="tr_TR">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:locale:alternate" content="de_DE">
+<meta property="og:locale:alternate" content="fr_FR">
+<meta property="og:locale:alternate" content="nl_NL">
+<meta property="og:locale:alternate" content="it_IT">
+<meta property="og:locale:alternate" content="es_ES">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="../../assets/site.css">
+</head>
+<body>
+<a class="skip" href="#main">İçeriğe geç</a>
+<header class="top"><div class="wrap">
+<a class="brand" href="../../tr/"><img src="../../assets/icon-64.png" alt="" width="32" height="32">Tubwise</a>
+<nav class="main" aria-label="Ana menü"><a href="../../tr/hesaplayicilar/" aria-current="page">Hesaplayıcılar</a><a href="../../tr/jakuzi-suyu-test-etme/">Test rehberi</a><a href="../../tr/support/">Destek</a></nav>
+<nav class="lang" aria-label="Dil"><a href="../../hot-tub-ph-alkalinity-calculator/" hreflang="en" lang="en" title="English">EN</a><a href="../../de/whirlpool-ph-alkalinitaet-rechner/" hreflang="de" lang="de" title="Deutsch">DE</a><a href="../../fr/calcul-ph-tac-spa/" hreflang="fr" lang="fr" title="Français">FR</a><a href="../../nl/hottub-ph-alkaliniteit/" hreflang="nl" lang="nl" title="Nederlands">NL</a><a href="../../it/calcolo-ph-alcalinita-idromassaggio/" hreflang="it" lang="it" title="Italiano">IT</a><a href="../../es/calculadora-ph-alcalinidad-spa/" hreflang="es" lang="es" title="Español">ES</a><a href="../../tr/jakuzi-ph-alkalinite-hesaplama/" hreflang="tr" lang="tr" title="Türkçe" aria-current="true">TR</a></nav>
+<details class="langpick"><summary aria-label="Dil: Türkçe"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.6 2.8 2.6 15.2 0 18M12 3c-2.6 2.8-2.6 15.2 0 18"/></svg>TR</summary><nav aria-label="Dil"><a href="../../hot-tub-ph-alkalinity-calculator/" hreflang="en" lang="en">English</a><a href="../../de/whirlpool-ph-alkalinitaet-rechner/" hreflang="de" lang="de">Deutsch</a><a href="../../fr/calcul-ph-tac-spa/" hreflang="fr" lang="fr">Français</a><a href="../../nl/hottub-ph-alkaliniteit/" hreflang="nl" lang="nl">Nederlands</a><a href="../../it/calcolo-ph-alcalinita-idromassaggio/" hreflang="it" lang="it">Italiano</a><a href="../../es/calculadora-ph-alcalinidad-spa/" hreflang="es" lang="es">Español</a><a href="../../tr/jakuzi-ph-alkalinite-hesaplama/" hreflang="tr" lang="tr" aria-current="true">Türkçe</a></nav></details>
+</div></header>
+<main id="main" tabindex="-1">
+<div class="wrap">
+<p class="crumb"><a href="../../tr/hesaplayicilar/">Hesaplayıcılar</a></p>
+<h1>Jakuzi pH ve alkalinite hesaplayıcı</h1>
+<p class="lead">Ne kadar pH düşürücü, pH artırıcı ya da karbonat ekleyeceğin. pH dozu alkaliniteye bağlıdır, bu yüzden ikisini de girersin.</p>
+<div class="calc">
+<form class="panel" id="calc-form" data-calc="ph" novalidate>
+<div class="field volume"><label for="vol">Su hacmi</label>
+<div class="joined"><input id="vol" name="vol" type="text" inputmode="decimal" autocomplete="off" spellcheck="false" value="1.500" required aria-describedby="vol-hint vol-err">
+<select id="vol-unit" name="vol-unit" aria-label="Hacim birimi"><option value="L" selected>litre</option><option value="gal">ABD galonu</option></select></div>
+<span class="hint" id="vol-hint">Kullanım kılavuzunda yazar. Şişme jakuzilerde çoğu zaman %80 dolulukla verilir.</span><span class="err" id="vol-err" hidden></span></div>
+<div class="field "><label for="ta">Şu anki toplam alkalinite, TA (ppm)</label>
+<input id="ta" name="ta" type="text" inputmode="decimal" autocomplete="off" spellcheck="false" required aria-describedby="ta-hint ta-err">
+<span class="hint" id="ta-hint">İki hesapta da kullanılır: TA ne kadar yüksekse pH’ı oynatmak için o kadar çok asit gerekir.</span><span class="err" id="ta-err" hidden></span></div>
+<h2 class="h3 form-h">Toplam alkalinite</h2>
+<div class="field "><label for="ta-target">Hedef TA (ppm)</label>
+<input id="ta-target" name="ta-target" type="text" inputmode="decimal" autocomplete="off" spellcheck="false" value="80" required aria-describedby="ta-target-hint ta-target-err">
+<span class="hint" id="ta-target-hint">İdeali çamaşır suyuyla 80 ile 100, toz klor ya da bromla 100 ile 120.</span><span class="err" id="ta-target-err" hidden></span></div>
+<h2 class="h3 form-h">pH</h2>
+<div class="field-row two"><div class="field "><label for="ph">Şu anki pH</label>
+<input id="ph" name="ph" type="text" inputmode="decimal" autocomplete="off" spellcheck="false" required aria-describedby="ph-err">
+<span class="err" id="ph-err" hidden></span></div><div class="field "><label for="ph-target">Hedef pH</label>
+<input id="ph-target" name="ph-target" type="text" inputmode="decimal" autocomplete="off" spellcheck="false" value="7,5" required aria-describedby="ph-target-hint ph-target-err">
+<span class="hint" id="ph-target-hint">İdeali 7,4 ile 7,6.</span><span class="err" id="ph-target-err" hidden></span></div></div>
+<div data-show="down"><fieldset class="choice"><legend>pH düşürücü ürün</legend><div class="pills"><label class="pill"><input type="radio" name="acid" value="dry" checked><span>Kuru asit (sodyum bisülfat)</span></label><label class="pill"><input type="radio" name="acid" value="muriatic"><span>Tuz ruhu (hidroklorik asit)</span></label></div></fieldset>
+<div class="field-row" data-show="muriatic" hidden><div class="field "><label for="mur-pct">Asit gücü (% HCl)</label>
+<input id="mur-pct" name="mur-pct" type="text" inputmode="decimal" autocomplete="off" spellcheck="false" value="31,45" required aria-describedby="mur-pct-hint mur-pct-err">
+<span class="hint" id="mur-pct-hint">Etikette yazar. Havuz asidi çoğu zaman %31,45, seyreltilmiş asitler %14,5.</span><span class="err" id="mur-pct-err" hidden></span></div></div></div>
+<div data-show="up" hidden><fieldset class="choice"><legend>pH artırıcı ürün</legend><div class="pills"><label class="pill"><input type="radio" name="base" value="soda" checked><span>Soda (sodyum karbonat)</span></label><label class="pill"><input type="radio" name="base" value="borax"><span>Boraks</span></label></div></fieldset></div>
+<details class="more"><summary>Suda borat var mı? (isteğe bağlı)</summary><div class="field "><label for="borate">Borat (B olarak ppm)</label>
+<input id="borate" name="borate" type="text" inputmode="decimal" autocomplete="off" spellcheck="false" value="0" aria-describedby="borate-hint borate-err">
+<span class="hint" id="borate-hint">Borat eklemediysen 0 bırak. Boratlar pH’ı tamponlar, bu yüzden asit dozu artar.</span><span class="err" id="borate-err" hidden></span></div></details>
+</form>
+<section class="results" aria-labelledby="res-h">
+<h2 id="res-h" class="sr">Sonuç</h2>
+<div id="calc-nojs" class="callout"><p>Bu hesaplayıcı JavaScript gerektirir. Aşağıdaki yöntem, hesabı elle nasıl yapacağını gösterir.</p></div>
+<div id="res" class="res-card card" aria-live="polite" hidden></div>
+<p class="note">Tarayıcında çalışır. Yazdığın hiçbir şey gönderilmez ya da kaydedilmez.</p>
+</section>
+</div>
+<script type="application/json" id="calc-i18n">{"locale":"tr-TR","decimal":",","units":"metric","g":"g","ml":"mL","oz":"oz","floz":"fl oz","errNumber":"Bir sayı gir.","errRange":"{min} ile {max} arasında bir değer gir.","fixErrors":"Kırmızıyla işaretli alanları kontrol et.","fillIn":"Sonucu görmek için alanları doldur.","retest":"Jetleri 20 dakika çalıştır, daha fazla eklemeden önce tekrar test et. Jetsiz şişme jakuzide önce filtreyi 4 saat çalıştır.","flags":{"warn":"Dikkat","stop":"Dur","info":"Not","good":"Tamam"},"days":{"one":"gün","other":"gün"},"products":{"dry":"kuru asit","muriatic":"tuz ruhu","soda":"soda","borax":"boraks"},"phH0":"pH","phH":"pH {from} → {to}","phAtTarget":"pH zaten hedefte.","outOfModel":"Bu modelin kapsadığı aralığın dışında (pH 6,8 ile 8,6, TA en fazla 300 ppm, borat en fazla 80 ppm). Tekrar test et. Ölçüm doğruysa pH’ı daha küçük adımlarla değiştir.","addNow":"{product}, şimdi: {n} adımdan ilkinin %{pct} kadarı","addNowOne":"{product}, şimdi: tüm miktarın %{pct} kadarı","stepTo":"Adım {i}: pH {ph}","taDrop":"Planın tamamı TA’yı yaklaşık {x} ppm düşürür.","taRise":"Planın tamamı TA’yı yaklaşık {x} ppm artırır.","borateRise":"Boraks ayrıca yaklaşık {x} ppm borat ekler.","floor":"TA {floor} ppm ya da üstünde kalsın diye pH {ph} değerinde durdu. Önce karbonatla TA’yı yükselt, sonra pH’ı düşür.","acidTip":"Asidi jetlerin yakınında suya yavaşça dök. Asla klorla karıştırma.","taH0":"Toplam alkalinite","taH":"TA {from} → {to} ppm","taHigh":"TA hedefin üstünde. Düşürmek için birkaç gün boyunca asit ve havalandırma gerekir. Uygulama seni adım adım yönlendirir.","taAtTarget":"TA zaten hedefte.","taAddNow":"karbonat, şimdi: {n} adımdan ilkinin %{pct} kadarı","taAddNowOne":"karbonat, şimdi: tüm miktarın %{pct} kadarı","taStepTo":"Adım {i}: {ta} ppm","taRaisesPh":"Karbonat pH’ı da biraz yükseltir.","order":"Önce alkaliniteyi ayarla. 20 dakika sonra pH’ı tekrar test et, sonra onu ayarla."}</script>
+
+<div class="prose gap-top">
+<h2 id="method">Nasıl hesaplanıyor</h2>
+<h3>Alkalinite pH dozunu neden değiştirir</h3>
+<p>Toplam alkalinite (TA) suyun tamponudur. Tampon ne kadar fazlaysa pH’ı oynatmak için o kadar çok asit gerekir. “1.000 L’de 10 g pH’ı 0,1 düşürür” gibi etiket oranları TA’yı hesaba katmaz. Yumuşak sulu bir jakuzide üç kata kadar şaşabilirler.</p>
+<h3>Asit modeli</h3>
+<p>Tubwise, TroubleFreePool Pool Math asit modelini kullanır. Model miliekivalan cinsinden yazıldığı için her asit gücüyle çalışır:</p><pre><code>p̄ = (şu anki pH + hedef pH) ÷ 2
+adj = (192,1626 − 60,1221 p̄ + 6,0752 p̄² − 0,1943 p̄³) × (TA + 13,91) ÷ 114,6
+asit (meq/L) = ΔpH × (adj + ek × borat) × 0,325469</code></pre><p>%31,45’lik tuz ruhunda mL başına 10,006 meq, kuru asitte (%93,2 sodyum bisülfat) g başına 7,763 meq vardır. Soda ve boraks aynı tampon terimini ters yönde kullanır.</p>
+<h3>Güvenlik adımları</h3>
+<p>pH her adımda en fazla 0,3 değişir ve her adım kendi orta noktasında hesaplanır. Hesaplayıcı ilk adımın %75’ini gösterir: bunu ekle, jetleri 20 dakika çalıştır, tekrar test et. TA 50 ppm’in altına düşecekse asit orada durur, çünkü tampon azalınca pH savrulur.</p><p>Jakuzi 37 ile 40 °C’de CO₂’yi hızlı kaybeder, bu yüzden dozdan sonra pH yukarı kayar. Bu normaldir. Tam sayının peşine düşme, tekrar test et.</p>
+<h3>Alkalinite için karbonat</h3>
+<p>Karbonat (sodyum bikarbonat, 84,007 g/mol) mol başına bir ekivalan alkalinite ekler:</p><p><code>gram = TA artışı ÷ 50,04 × litre × 84,007 ÷ 1000</code></p><p>Her adım TA’yı en fazla 30 ppm artırır ve ilk adımın %75’i gösterilir. Örnek: 1.000 L’de 60’tan 80 ppm’e toplam 33,6 g gerekir. 25,2 g ekle, sonra test et.</p>
+<aside class="card app-note gap-top" aria-labelledby="app-h">
+<h2 id="app-h" class="h3">Uygulamada</h2>
+<p>Tubwise bu sayıları testinden alır, adımları sıraya koyar (önce alkalinite, sonra pH, sonra dezenfektan) ve her adımdan sonra tekrar test için bir sayaç başlatır.</p>
+<div class="stores "><span class="store soon"><small>App Store</small><b>Yakında</b></span><span class="store soon"><small>Google Play</small><b>Yakında</b></span></div>
+</aside>
+<h2>Kaynaklar</h2>
+<ol class="sources"><li><a href="https://www.troublefreepool.com/calc.html" rel="noopener">TroubleFreePool, Pool Math eski hesaplayıcı (calc.html): asit ve baz modeli</a></li><li><a href="https://taylortechnologies.com/pages/technical-faqs" rel="noopener">Taylor Technologies, teknik SSS: pH ve TA için PHTA spa aralıkları</a></li><li><a href="https://poolhelp.com/wp-content/uploads/2024/10/NSPI-SympProc-V1-pp104-108-Wojtowicz.pdf" rel="noopener">Wojtowicz, NSPI Sempozyumu 1996: spalarda CO₂ kaybı</a></li><li><a href="https://www.spaguard.com/spa-products/spa-water-balancers" rel="noopener">SpaGuard, spa su dengeleyicileri: doz başına TA artışı</a></li><li><a href="https://www.ciaaw.org/calcium.htm" rel="noopener">CIAAW, kalsiyumun standart atom ağırlığı (CaCO₃ eşdeğerleri)</a></li></ol>
+<p class="callout">Hesaplar tahminidir; parça parça ekle ve tekrar test et. Ürün etiketine uy.</p>
+<p class="small">Diğerleri: <a href="../../tr/hesaplayicilar/">Hesaplayıcılar</a> · <a href="../../tr/jakuzi-suyu-test-etme/">Damla kiti test rehberi</a></p>
+</div>
+</div>
+</main>
+<footer><div class="wrap">
+<p class="disclaimer">Hesaplar tahminidir; parça parça ekle ve tekrar test et. Ürün etiketine uy.</p>
+<p>Tubwise, iPhone ve Android için bir jakuzi suyu test günlüğü ve doz hesaplayıcısı. Mufatech yapıyor. Bu site çerez kullanmaz ve başka sunuculardan hiçbir şey yüklemez.</p>
+<nav aria-label="Site"><a href="../../tr/">Tubwise</a><a href="../../tr/hesaplayicilar/">Hesaplayıcılar</a><a href="../../tr/jakuzi-suyu-test-etme/">Test rehberi</a><a href="../../tr/support/">Destek</a><a href="../../tr/privacy/">Gizlilik</a><a href="mailto:hello@mufatech.com">hello@mufatech.com</a></nav>
+</div></footer>
+<script type="module" src="../../assets/calc-ui.js"></script>
+</body>
+</html>
